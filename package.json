@@ -1,7 +1,7 @@
 {
   "name": "my-react-project",
   "version": "0.0.0",
-  "homepage": "https://pages.github.com/sven-so/NFTViewer",
+  "homepage": "https://sven-so.github.io/NFTViewer/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
