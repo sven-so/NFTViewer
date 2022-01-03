@@ -1,9 +1,12 @@
 {
   "name": "my-react-project",
   "version": "0.0.0",
+  "homepage": "https://pages.github.com/sven-so/NFTViewer",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "serve": "vite preview"
   },
   "dependencies": {
