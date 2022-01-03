@@ -15,7 +15,7 @@ export default function NFTRarity() {
   return (
     <section>
       <h1>{nft.name}</h1>
-      <div class={currentStyle}>
+      <div className={currentStyle}>
         <img src={nft.image} alt="" />
       </div>
       <p>{nft.description}</p>
