@@ -17,6 +17,8 @@ jobs:
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
+      - run: npm install -g typescript
+      - run: tsc -v
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - name: checkout
         uses: actions/checkout@v2
